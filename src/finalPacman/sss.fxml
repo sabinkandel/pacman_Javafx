@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalPacman.Controller2">
+   <children>
+      <Text fill="#d70000" layoutX="43.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="settings" wrappingWidth="146.93670272827148">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="speed : " wrappingWidth="94.93670654296875" />
+      <Text layoutX="43.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level :" />
+      <Button fx:id="ret" layoutX="190.0" layoutY="201.0" mnemonicParsing="false" onAction="#abc" text="back" />
+      <ChoiceBox fx:id="cb" layoutX="135.0" layoutY="127.0" prefWidth="150.0" />
+      <Slider fx:id="speed" blockIncrement="5.0" layoutX="135.0" layoutY="87.0" min="5.0" prefHeight="14.0" prefWidth="150.0" showTickLabels="true" value="50.0" />
+      <Text layoutX="342.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frames / sec" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Pane layoutX="478.0" layoutY="53.0" prefHeight="200.0" prefWidth="319.0">
+         <children>
+            <Text layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hey, " wrappingWidth="32.7421875" />
+            <Text layoutX="70.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your High scores" />
+            <Text layoutX="14.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="level 1 : " wrappingWidth="48.40002441406227" />
+            <Text layoutX="14.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="level 2 : " wrappingWidth="48.40002441406227" />
+            <Text layoutX="14.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="level 3 : " wrappingWidth="48.40002441406227" />
+            <Text layoutX="221.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hall of fame" />
+            <Label fx:id="ul1" layoutX="80.0" layoutY="92.0" text="0" />
+            <Label fx:id="l1" layoutX="238.0" layoutY="92.0" text="0" />
+            <Label fx:id="ul3" layoutX="81.0" layoutY="142.0" text="0" />
+            <Label fx:id="l3" layoutX="239.0" layoutY="142.0" text="0" />
+            <Label fx:id="ul2" layoutX="80.0" layoutY="118.0" text="0" />
+            <Label fx:id="l2" layoutX="238.0" layoutY="118.0" text="0" />
+            <Label fx:id="username" layoutX="69.0" layoutY="6.0" text="name" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
